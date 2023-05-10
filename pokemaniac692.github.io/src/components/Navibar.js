@@ -1,12 +1,9 @@
 import { useState, useEffect } from 'react';
-import { Container, Row, Col, Navbar, Nav, Button } from 'react-bootstrap';
+import { Container, Row, Col, Navbar, Nav, Button, Offcanvas } from 'react-bootstrap';
 import { Robot } from 'react-bootstrap-icons';
+import Contact from '../pages/Contact';
 
 function Navibar() {
-
-    const handleLogout = () => {
-        
-    };
 
 return (
       <Container>
@@ -22,9 +19,8 @@ return (
                 <Nav>
                     <Nav.Link href=".">Home</Nav.Link>
                     <Nav.Link href="/example">Example</Nav.Link>
-                    <Button variant="outline-secondary" onClick={handleLogout} className="ml-auto">
-                        Contact
-                    </Button>
+                    <Contact />
+
                 </Nav>
                 </Navbar.Collapse>
             </Container>
