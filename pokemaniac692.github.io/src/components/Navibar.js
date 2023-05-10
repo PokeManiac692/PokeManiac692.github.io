@@ -10,7 +10,7 @@ return (
         <Navbar bg="light" variant="light">
             <Container>
                 <Navbar.Brand href=".">
-                    <Robot size={30}/> JA
+                    <Robot size={30}/> J.Abuan
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
