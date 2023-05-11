@@ -1,8 +1,8 @@
-import logo from './logo.svg';
 import './App.css';
 import React, { useState } from 'react';
 import { Col, Row, Button, Container, Stack } from 'react-bootstrap';
 import Navibar from './components/Navibar';
+import Splash from './pages/Splash';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -13,13 +13,11 @@ function App() {
             <Navibar />
       </Container>
       <Container fluid>
-        {/* <Row>
-          <Col md={1} />
-          <Col md={10}>
-            <Dashboard />
+        <Row>
+          <Col>
+            <Splash />
           </Col>
-          <Col md={1} />
-        </Row> */}
+        </Row>
       </Container>
     </div>
   );

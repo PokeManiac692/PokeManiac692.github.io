@@ -26,7 +26,7 @@ function Contact() {
 
         <Offcanvas show={show} onHide={handleClose} backdrop="static">
             <Offcanvas.Header closeButton>
-                <Offcanvas.Title>Contact Me</Offcanvas.Title>
+                <Offcanvas.Title>Contact</Offcanvas.Title>
             </Offcanvas.Header>
             <Offcanvas.Body>
                 <Container fluid>
