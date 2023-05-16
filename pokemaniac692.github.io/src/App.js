@@ -9,9 +9,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
     <div>
-      <Container fluid>
-            <Navibar />
-      </Container>
+      <Navibar />
       <Container fluid>
         <Row>
           <Col>

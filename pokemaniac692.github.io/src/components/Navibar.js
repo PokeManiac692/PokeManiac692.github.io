@@ -6,9 +6,9 @@ import Contact from '../pages/Contact';
 function Navibar() {
 
 return (
-      <Container>
-        <Navbar bg="light" variant="light">
-            <Container>
+      <Container fluid>
+        <Navbar bg="light" variant="light" sticky="top">
+            <Container fluid>
                 <Navbar.Brand href=".">
                     <Robot size={30}/> J.Abuan
                 </Navbar.Brand>

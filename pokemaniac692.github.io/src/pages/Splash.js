@@ -1,6 +1,8 @@
+import './Splash.css';
 import React, { useState, useEffect } from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import Typed from 'typed.js';
+import videoUrl from '../assets/nodes-3840x2160-30fps.mp4';
 
 function Splash() {
 
@@ -12,7 +14,7 @@ function Splash() {
       strings: ['I am a Full Stack Software Developer','I am a 👨‍💻 Computer Science Career and Technical Educator', 'I am an 🥋 International Judo Competitor and Instructor', 'I am a 🐾 Dog Dad 🐾', 'I am a 🎮 Casual Gamer', 'I am a 🖥 Programming and Tech Enthusiast', 'I am a 🤖 Passionate Builder and Systems Troubleshooter'],
       typeSpeed: 25,
       backSpeed: 0,
-      startDelay: 300,
+      startDelay: 500,
       loop: true,
     });
 
@@ -22,12 +24,18 @@ function Splash() {
     };
   }, []);
 return (
-      <Container>
-        <Row className="text-center row align-items-center">
-            <Col>
+    <Container fluid>
+        <div className="vidOverlay"></div>
+        <video
+            src={videoUrl}
+            autoPlay
+            muted
+            loop
+            className="bgVideo"
+        />
+        <Row className="content">
                 <h1>Hello, I'm Jeremy Abuan.</h1>
                 <h3><span ref={el} /></h3>
-            </Col>
         </Row>
       </Container>
   );
