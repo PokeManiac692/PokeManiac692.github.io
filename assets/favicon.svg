@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 70">
+  <rect x="5" y="5" width="130" height="60" rx="10" fill="#181818"/>
+  <text x="20" y="48"
+        font-family="Source Code Pro, Fira Mono, monospace"
+        font-size="42"
+        fill="#39FF14">
+    &gt; JA
+  </text>
+</svg>
