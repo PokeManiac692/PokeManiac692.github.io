@@ -1,130 +1,235 @@
-<!-- index.html for jabuan.codes -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>jabuan.codes</title>
 
+  <!-- CSS Libraries -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet"/>
+  <link href="css/style.css" rel="stylesheet"/>
 
-<!doctype html>
-<html lang="en" class="h-100">
-  <head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-E7HM59L4JY"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-E7HM59L4JY');
-    </script>
-    
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Portfolio Page - JA">
-    <meta name="author" content="Jeremy Abuan">
-
-    <!-- Favicon -->
-    <link rel="icon" type="image/svg+xml" href="assets/brand/code-square.svg" sizes="any">
-    <title>jabuan.codes</title>
-
-    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-
-      .b-example-divider {
-        height: 3rem;
-        background-color: rgba(0, 0, 0, .1);
-        border: solid rgba(0, 0, 0, .15);
-        border-width: 1px 0;
-        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
-      }
-
-      .b-example-vr {
-        flex-shrink: 0;
-        width: 1.5rem;
-        height: 100vh;
-      }
-
-      .bi {
-        vertical-align: -.125em;
-        fill: currentColor;
-      }
-
-      .nav-scroller {
-        position: relative;
-        z-index: 2;
-        height: 2.75rem;
-        overflow-y: hidden;
-      }
-
-      .nav-scroller .nav {
-        display: flex;
-        flex-wrap: nowrap;
-        padding-bottom: 1rem;
-        margin-top: -1px;
-        overflow-x: auto;
-        text-align: center;
-        white-space: nowrap;
-        -webkit-overflow-scrolling: touch;
-      }
-    </style>
-
-    
-    <!-- Custom styles for this template -->
-    <link href="/assets/dist/css/cover.css" rel="stylesheet">
-  </head>
-  <body class="d-flex h-100 text-center text-bg-dark">
-    
-<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-  <header class="mb-auto">
-    <div>
-      <h3 class="float-md-start mb-0"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-robot" viewBox="0 0 16 16">
-        <path d="M6 12.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5ZM3 8.062C3 6.76 4.235 5.765 5.53 5.886a26.58 26.58 0 0 0 4.94 0C11.765 5.765 13 6.76 13 8.062v1.157a.933.933 0 0 1-.765.935c-.845.147-2.34.346-4.235.346-1.895 0-3.39-.2-4.235-.346A.933.933 0 0 1 3 9.219V8.062Zm4.542-.827a.25.25 0 0 0-.217.068l-.92.9a24.767 24.767 0 0 1-1.871-.183.25.25 0 0 0-.068.495c.55.076 1.232.149 2.02.193a.25.25 0 0 0 .189-.071l.754-.736.847 1.71a.25.25 0 0 0 .404.062l.932-.97a25.286 25.286 0 0 0 1.922-.188.25.25 0 0 0-.068-.495c-.538.074-1.207.145-1.98.189a.25.25 0 0 0-.166.076l-.754.785-.842-1.7a.25.25 0 0 0-.182-.135Z"/>
-        <path d="M8.5 1.866a1 1 0 1 0-1 0V3h-2A4.5 4.5 0 0 0 1 7.5V8a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1v1a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-1a1 1 0 0 0 1-1V9a1 1 0 0 0-1-1v-.5A4.5 4.5 0 0 0 10.5 3h-2V1.866ZM14 7.5V13a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V7.5A3.5 3.5 0 0 1 5.5 4h5A3.5 3.5 0 0 1 14 7.5Z"/>
-      </svg> { JA }</h3>
-      <nav class="nav nav-masthead justify-content-center float-md-end">
-        <a class="nav-link fw-bold py-1 px-0 active" aria-current="page" href="/">Home</a>
-        <a class="nav-link fw-bold py-1 px-0" href="https://drive.google.com/file/d/1MTZCzOtqHLerFrb8Jq9iqxCto1IRjEc0/view?usp=sharing">Resume</a>
-        <a class="nav-link fw-bold py-1 px-0" href="https://github.com/PokeManiac692">Github</a>
-        <a class="nav-link fw-bold py-1 px-0" href="contact.html">Contact</a>
-
-      </nav>
+  <!-- Keep only overrides here if needed -->
+  <style>
+    .navbar { background: white; box-shadow: 0 2px 8px rgba(0,0,0,0.05); }
+    .hero { height: 100vh; display: flex; align-items: center; justify-content: center; flex-direction: column; }
+    .hero h1 { font-size: 3rem; }
+    .hero p { font-size: 1.25rem; color: #666; }
+    .portfolio img { width: 100%; border-radius: 6px; }
+    .portfolio-item { cursor: pointer; }
+    .typed-cursor { color: #000000;}
+    .contact-form { max-width: 600px; margin: auto; }
+    footer { background: #f8f9fa; padding: 2rem 0; text-align: center; }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <svg xmlns="http://www.w3.org/2000/svg" width="2.5em" height="1.3em" viewBox="0 0 140 70" style="vertical-align: middle;">
+          <rect x="5" y="5" width="130" height="60" rx="10" fill="#181818"/>
+          <text x="20" y="48" font-family="'Source Code Pro', 'Fira Mono', 'Courier New', monospace" font-size="42" fill="#39FF14">&gt; JA</text>
+        </svg>
+      </a>
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div id="nav" class="collapse navbar-collapse">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#work">Work</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
     </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero text-center" id="home">
+    <h1><span style="color:#000;">Hello 👋</span></h1>
+    <h1><span style="color:#000;">I'm</span> <strong>Jeremy Abuan</strong></h1>
+    <p><span id="typed"></span></p>
   </header>
 
-  <main class="px-3">
-    <h1>Hello, I'm <span style="color:#0d6efd">Jeremy Abuan</span>.</h1>
-    <h3><i>{ Software Engineer }</i></h3>
-    <p class="lead">I am a</p>
-    <select class="form-select">
-      <option value="" class="dropdown-item rounded-2 active">...</option>
-      <option a class="dropdown-item rounded-2">👨‍💻 Computer Science Career and Technical Educator</option>
-      <option a class="dropdown-item rounded-2">🥋 International Judo Competitor and Instructor</option>
-      <option a class="dropdown-item rounded-2">🐾 Dog Dad 🐾</option>
-      <option a class="dropdown-item rounded-2">🎮 Casual Gamer</option>
-      <option a class="dropdown-item rounded-2">🖥 Programming and Tech Enthusiast</option>
-      <option a class="dropdown-item rounded-2">🤖 Passionate Builder and Systems Troubleshooter</option>
-    </select>
-    <p class="lead">
-      <br>
-      <a href="contact.html" class="btn btn-outline-light btn-lg fw-bold">Contact</a>
-    </p>
-  </main>
+<!-- About -->
+<section id="about" class="py-5 bg-light">
+  <div class="container text-center" data-aos="fade-up">
+    <h2>About Me</h2>
+    <p class="lead">Hi, I’m Jeremy! I’ve worn a lot of hats over the years — from teaching computer science and coaching robotics teams, to working in quality control and operations in the luxury fashion space. I love finding ways to make complex processes simpler, whether that’s building tools, streamlining workflows, or coaching teams. At the end of the day, I’m all about solving problems, learning new things, and helping people do their best work.</p>
+  </div>
+</section>
 
-  <footer class="mt-auto text-white-50">
-    <p>"All I do is try to make it simple."</p>
-  </footer>
+<!-- Portfolio -->
+<section id="work" class="py-5">
+  <div class="container text-center">
+    <h2 data-aos="fade-up">Projects</h2>
+    <div class="row g-4 mt-4 portfolio" data-aos="fade-up">
+      <div class="col-md-4 portfolio-item" data-bs-toggle="modal" data-bs-target="#projectModal1">
+        <img src="assets/projects/pr1.png" alt="Project 1"/>
+      </div>
+      <div class="col-md-4 portfolio-item" data-bs-toggle="modal" data-bs-target="#projectModal2">
+        <img src="assets/projects/pr2.png" alt="Project 2"/>
+      </div>
+      <div class="col-md-4 portfolio-item" data-bs-toggle="modal" data-bs-target="#projectModal3">
+        <img src="assets/projects/pr3.png" alt="Project 3"/>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Modals -->
+<div class="modal fade" id="projectModal1" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Automated Internal Reporting & Audit Recap System</h5>
+        <button class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <p>Designed and built an automated internal reporting workflow using Google Apps Script and Google Sheets to generate daily HTML recap emails. The system pulls real-time operational data, formats it for readability, and supports scheduled or manual delivery to stakeholders, improving visibility and reducing manual reporting effort.</p>
+        <h6>Key Skills</h6>
+        <ul>
+          <li>Google Apps Script</li>
+          <li>Google Sheets</li>
+          <li>Workflow Automation</li>
+          <li>Data Validation</li>
+          <li>Internal Reporting</li>
+          <li>Systems Documentation</li>
+        </ul>
+      </div>
+    </div>
+  </div>
 </div>
 
+<div class="modal fade" id="projectModal2" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">System Error Tracking & Data Validation Documentation</h5>
+        <button class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <p>Created structured logs and visual documentation to track system errors and data inconsistencies during internal tool and AI feature rollouts. The project focused on improving issue reporting clarity, supporting troubleshooting efforts, and enabling cross-team communication between operations and engineering.</p>
+        <h6>Key Skills</h6>
+        <ul>
+          <li>Data Validation</li>
+          <li>System Troubleshooting</li>
+          <li>Technical Documentation</li>
+          <li>Root Cause Analysis</li>
+          <li>Cross-functional Support</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
 
-    
-  </body>
+<div class="modal fade" id="projectModal3" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Internal Web Application for Workflow Support</h5>
+        <button class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <p>Developed a full-stack web application using Python and Flask that integrates third-party APIs to support non-technical users. Focused on backend logic, API integration, and clear user interfaces rather than consumer-facing features.</p>
+        <h6>Key Skills</h6>
+        <ul>
+          <li>Application Support</li>
+          <li>Workflow Automation</li>
+          <li>API Integration</li>
+          <li>Backend Systems</li>
+          <li>Data Handling & Validation</li>
+          <li>Technical Documentation</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Contact -->
+<section id="contact" class="py-5 bg-light">
+  <div class="container text-center" data-aos="fade-up">
+    <h2>Contact Me</h2>
+    <form
+      class="contact-form mt-4"
+      action="https://formspree.io/f/xwvpgwwo"
+      method="POST"
+    >
+      <input type="hidden" name="_subject" value="New message from jabuan.codes" />
+      <div class="form-floating mb-3">
+        <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required />
+        <label for="name">Your Name</label>
+      </div>
+      <div class="form-floating mb-3">
+        <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" required />
+        <label for="email">Your Email</label>
+      </div>
+      <div class="form-floating mb-3">
+        <textarea class="form-control" id="message" name="message" placeholder="Your Message" style="height: 150px" required></textarea>
+        <label for="message">Your Message</label>
+      </div>
+      <button type="submit" class="btn btn-dark w-100">Send Message</button>
+      <p class="mt-3 text-success d-none" id="form-success">
+        Thanks! Your message has been sent.
+      </p>
+      <p class="mt-2 text-danger d-none" id="form-error">
+        Sorry — something went wrong. Please try again.
+      </p>
+    </form>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <p>'All I do is try to make it simple.'<br>
+    J. Abuan<br>
+    &copy; 2025</p>
+</footer>
+
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+  AOS.init();
+
+  new Typed('#typed', {
+    strings: ['Developer', 'Innovator', 'Leader', 'Problem Solver', 'Judoka', 'Educator', 'Dog Dad', 'Lifelong Learner'],
+    typeSpeed: 60,
+    backSpeed: 30,
+    loop: true
+  });
+
+  const form = document.querySelector('.contact-form');
+  const successMsg = document.getElementById('form-success');
+  const errorMsg = document.getElementById('form-error');
+
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    successMsg.classList.add('d-none');
+    errorMsg.classList.add('d-none');
+
+    try {
+      const res = await fetch(form.action, {
+        method: 'POST',
+        body: new FormData(form),
+        headers: { 'Accept': 'application/json' }
+      });
+
+      if (res.ok) {
+        form.reset();
+        successMsg.classList.remove('d-none');
+      } else {
+        errorMsg.classList.remove('d-none');
+      }
+    } catch (err) {
+      errorMsg.classList.remove('d-none');
+    }
+  });
+</script>
+
+</body>
 </html>

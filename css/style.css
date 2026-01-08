@@ -1,0 +1,33 @@
+.hero {
+  background-color: rgba(249, 249, 249, 0.9);
+  background-image:  
+    linear-gradient(rgba(0, 48, 232, 0.2) 1.7px, transparent 1.7px),
+    linear-gradient(to right, rgba(0, 48, 232, 0.2) 1.7px, rgba(249, 249, 249, 0.9) 1.7px);
+  background-size: 34px 34px;
+
+  height: 100vh; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+@font-face {
+  font-family: 'TS_Boot';
+  src: url('../assets/fonts/TS_Bootleg.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Body stays Segoe UI */
+body {
+  font-family: 'Courier New', Courier, monospace;
+  scroll-behavior: smooth;
+}
+
+/* Headings use TS_Boot */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'TS_Boot', 'Courier New', Courier, monospace;
+  color: #FC3D21; /* NASA Red */
+}
