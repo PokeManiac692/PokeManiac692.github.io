@@ -1,9 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 70">
-  <rect x="5" y="5" width="130" height="60" rx="10" fill="#181818"/>
-  <text x="20" y="48"
-        font-family="Source Code Pro, Fira Mono, monospace"
-        font-size="42"
-        fill="#39FF14">
-    &gt; JA
-  </text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+  <!-- Background -->
+  <rect x="0" y="0" width="16" height="16" rx="3" fill="#181818"/>
+
+  <!-- Text -->
+  <text
+    x="2"
+    y="12"
+    font-size="10"
+    font-family="monospace"
+    font-weight="700"
+    fill="#39FF14"
+  >JA</text>
 </svg>
